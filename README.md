@@ -1,0 +1,1 @@
+Hi, I'm Vy Lam, and this is the system-integration-testing-open-tool that I've developed as open source for BA/SA around the world in general when working as a Systems Analyst/Product Manager (and dev) at VPBank
