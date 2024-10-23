@@ -1,0 +1,8 @@
+os
+docx
+streamlit
+openai
+pandas
+io 
+dotenv
+python-dotenv
