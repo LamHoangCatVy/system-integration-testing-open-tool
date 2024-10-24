@@ -21,13 +21,15 @@ def extract_text_from_docx(docx_file):
 
 # Function to generate SIT questions based on DOCX content, including document name
 def generate_sit_questions(doc_content, doc_name):
-    system_prompt = """You are an assistant tasked with generating questions for \
+    system_prompt = f"""You are an assistant tasked with generating questions for \
 system integration testing (SIT) based solely on the contents of the provided \
 document. You always use Vietnamese. You must not paraphrase or modify any text. Retain original wording and \
 phrases exactly as they appear in the document. For example, phrases like "thẻ visa \
 lady mastercard" or "Nghị định 08/2018" must remain unchanged.
     
 Generate questions based on this content for SIT purposes. Remember to extract the document name, if there are any additional words like "22 trang, 25 trang, 30 trang,...." and append to the question to keep the context. For example: 
+Examples:
+    
 ""
 """
     
@@ -45,7 +47,7 @@ Generate questions based on this content for SIT purposes. Remember to extract t
 # Function to convert questions into a pandas DataFrame
 def create_sit_question_dataframe(questions):
     question_list = questions.strip().split('\n')  # Assuming each question is separated by a new line
-    data = {'STT': range(1, len(question_list) + 1), 'Câu hỏi': question_list}
+    data = {'question': question_list}
     df = pd.DataFrame(data)
     return df
 
