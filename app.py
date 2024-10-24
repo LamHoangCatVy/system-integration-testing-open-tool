@@ -34,7 +34,10 @@ DOCX file: Thẻ ghi nợ nội địa AutoLink.docx
 2. Hạn mức rút tiền mặt của thẻ ghi nợ nội địa AutoLink là bao nhiêu VNĐ/ngày và VNĐ/lần?
 3. Ai là đối tượng mở thẻ ghi nợ nội địa AutoLink?
 
-""
+DOCX file: PC_04. Phu luc 1 (PC) 21082024.docx
+1. PC_04. Phu luc 1 (PC) đề cập đến các chỉ tiêu phân loại lại theo nguyên tắc nào?
+2. PC_04. Phu luc 1 (PC) có vai trò gì trong quy định lập báo cáo tài chính quản trị?
+
 """
     
     user_prompt = f"Document name: {doc_name}\n\nDocument content:\n\n{doc_content}\n\nGenerate SIT questions from the above content."
@@ -51,7 +54,7 @@ DOCX file: Thẻ ghi nợ nội địa AutoLink.docx
 # Function to convert questions into a pandas DataFrame
 def create_sit_question_dataframe(questions):
     question_list = questions.strip().split('\n')  # Assuming each question is separated by a new line
-    data = {'STT': range(1, len(question_list) + 1), 'Câu hỏi': question_list}
+    data = {'question': question_list}
     df = pd.DataFrame(data)
     return df
 
