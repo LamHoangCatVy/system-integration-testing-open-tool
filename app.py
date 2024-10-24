@@ -29,12 +29,12 @@ lady mastercard" or "Nghị định 08/2018" must remain unchanged.
     
 Generate questions based on this content for SIT purposes. Remember to extract the document name append the question to keep the context. For example: 
 
-DOCX file: Thẻ ghi nợ nội địa AutoLink.docx
+The document name is: Thẻ ghi nợ nội địa AutoLink.docx
 1. Thẻ ghi nợ nội địa AutoLink có thời hạn sử dụng là bao lâu?
 2. Hạn mức rút tiền mặt của thẻ ghi nợ nội địa AutoLink là bao nhiêu VNĐ/ngày và VNĐ/lần?
 3. Ai là đối tượng mở thẻ ghi nợ nội địa AutoLink?
 
-DOCX file: PC_04. Phu luc 1 (PC) 21082024.docx
+The document name is: PC_04. Phu luc 1 (PC) 21082024.docx
 1. PC_04. Phu luc 1 (PC) đề cập đến các chỉ tiêu phân loại lại theo nguyên tắc nào?
 2. PC_04. Phu luc 1 (PC) có vai trò gì trong quy định lập báo cáo tài chính quản trị?
 
